@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+/***************************************
+ *** My Favourite List ***
+ ***************************************
+ *
+ * @copyright   Copyright (c) 2015
+ * @company     NetAttingo Technologies
+ * @package     Netgo_Favouritelist
+ * @author 		NetGo
+ * @dev			netattingomails@gmail.com
+ *
+ */
+ -->
+	<config>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<favouritelist translate="title" module="favouritelist">
+											<title>Favourite List  Section</title>
+											<sort_order>0</sort_order>
+										</favouritelist>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</config>

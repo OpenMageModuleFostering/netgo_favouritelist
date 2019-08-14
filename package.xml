@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>Netgo_Favouritelist</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension helps customers to add the favourite product in their account dashboard.</summary>
+    <description>This extension is developed with the purpose of adding any product to the account of favorites. Any type of product can be added to favorites. For adding any product, you just need to go to any product and click on ADD TO FAVORITES which will add the product to FAVORITE LIST. You can checkout that product. Even if you will checkout the product, then also favorite list account will have that product and you can always buy your favorite products.&#xD;
+&#xD;
+Features:&#xD;
+a. Add products to FAVORITES&#xD;
+b. FAVORITE LIST is always maintained even ADD TO CART is done.&#xD;
+c. Easy to track your favorite products&#xD;
+d. Maintains record of all favorite products. &#xD;
+e. Manageable for all types of products in Magento.</description>
+    <notes>First Preview Release</notes>
+    <authors><author><name>NetGo</name><user>NetGo</user><email>netattingomails@gmail.com</email></author></authors>
+    <date>2015-08-18</date>
+    <time>10:42:32</time>
+    <contents><target name="magecommunity"><dir name="Netgo"><dir name="Favouritelist"><dir name="Block"><file name="Index.php" hash="7635ee93805906e12c736c56b765cd97"/><file name="Links.php" hash="abe88b15b6cde8df37292a0841460588"/></dir><dir name="Helper"><file name="Data.php" hash="33d0f05538c5fc835784b82de49c1c59"/></dir><dir name="Model"><file name="Favouritelist.php" hash="c5956af05f11506f575f0c41cb480d95"/><dir name="Mysql4"><dir name="Favouritelist"><file name="Collection.php" hash="ebc091ae5a3aa2f73ef0ea386ca7df3b"/></dir><file name="Favouritelist.php" hash="a20748942ec8473ace73283fabc1c71c"/></dir></dir><dir name="controllers"><file name="IndexController.php" hash="326b6165fe14d5b7e825285b294cb1ae"/></dir><dir name="etc"><file name="adminhtml.xml" hash="629ff5074262ff9a1bb3472281aaebfa"/><file name="config.xml" hash="e660d5114c485d94febf42055c628afe"/><file name="system.xml" hash="19e2dfd2f79320f5dc70cbc8197e9528"/></dir><dir name="sql"><dir name="favouritelist_setup"><file name="mysql4-install-0.1.0.php" hash="d44f480bb1bbf35e7d887138edaf318d"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="favouritelist.xml" hash="631f06841bcb3e60ceb13498fb34a3fd"/></dir><dir name="template"><dir name="favouritelist"><file name="addto.phtml" hash="d83d0b92ed438f215e25467c52f4fdaf"/><file name="index.phtml" hash="b325e16cbb92767708d7f52cceda558d"/></dir></dir></dir></dir></dir></target><target name="mage"><dir name="."><file name="User_Manual.pdf" hash="89b2127a24d5a663157dd13a52b56f1a"/><file name="readme.txt" hash="404543a25e296a10c04438b49b943d51"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="favouritelist"><file name="favouritelist.css" hash="ebf268189c74b2dfb9b5c8c134d222cb"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Netgo_Favouritelist.xml" hash="4f6b27876a9d5cdef69da939811c1f63"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
