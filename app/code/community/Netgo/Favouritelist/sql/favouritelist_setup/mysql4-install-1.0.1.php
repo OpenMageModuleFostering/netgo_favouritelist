@@ -1,16 +1,4 @@
 <?php
-/***************************************
- *** My Favourite List ***
- ***************************************
- *
- * @copyright   Copyright (c) 2015
- * @company     NetAttingo Technologies
- * @package     Netgo_Favouritelist
- * @author 		NetGo
- * @dev			netattingomails@gmail.com
- *
- */
- 
 $installer = $this;
 $installer->startSetup();
 $sql=<<<SQLTEXT
@@ -19,8 +7,5 @@ create table favouritelist(favouritelist_id int not null auto_increment, custome
 SQLTEXT;
 
 $installer->run($sql);
-//demo 
-//Mage::getModel('core/url_rewrite')->setId(null);
-//demo 
 $installer->endSetup();
 	 

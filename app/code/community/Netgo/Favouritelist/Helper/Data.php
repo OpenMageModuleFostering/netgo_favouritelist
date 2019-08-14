@@ -1,16 +1,4 @@
 <?php
-/***************************************
- *** My Favourite List ***
- ***************************************
- *
- * @copyright   Copyright (c) 2015
- * @company     NetAttingo Technologies
- * @package     Netgo_Favouritelist
- * @author 		NetGo
- * @dev			netattingomails@gmail.com
- *
- */
- 
 class Netgo_Favouritelist_Helper_Data extends Mage_Core_Helper_Abstract
 {
 

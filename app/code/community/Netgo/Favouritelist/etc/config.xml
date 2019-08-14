@@ -1,21 +1,8 @@
 <?xml version="1.0"?>
-<!--
-/***************************************
- *** My Favourite List ***
- ***************************************
- *
- * @copyright   Copyright (c) 2015
- * @company     NetAttingo Technologies
- * @package     Netgo_Favouritelist
- * @author 		NetGo
- * @dev			netattingomails@gmail.com
- *
- */
- -->
 <config>
   <modules>
     <Netgo_Favouritelist>
-      <version>0.1.0</version>
+      <version>1.0.1</version>
     </Netgo_Favouritelist>
   </modules>
   <frontend>

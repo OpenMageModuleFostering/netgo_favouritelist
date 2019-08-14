@@ -1,17 +1,4 @@
 <?xml version="1.0"?>   
-<!--
-/***************************************
- *** My Favourite List ***
- ***************************************
- *
- * @copyright   Copyright (c) 2015
- * @company     NetAttingo Technologies
- * @package     Netgo_Favouritelist
- * @author 		NetGo
- * @dev			netattingomails@gmail.com
- *
- */
- -->
 <layout version="0.1.0">   
 <default>
 	  <reference name="head" >

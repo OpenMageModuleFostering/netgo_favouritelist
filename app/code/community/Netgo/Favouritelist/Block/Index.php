@@ -1,16 +1,4 @@
-<?php
-/***************************************
- *** My Favourite List ***
- ***************************************
- *
- * @copyright   Copyright (c) 2015
- * @company     NetAttingo Technologies
- * @package     Netgo_Favouritelist
- * @author 		NetGo
- * @dev			netattingomails@gmail.com
- *
- */
- 
+<?php   
 class Netgo_Favouritelist_Block_Index extends Mage_Core_Block_Template{   
 
 
