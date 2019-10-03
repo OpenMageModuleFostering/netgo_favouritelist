@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Netgo_Favouritelist",
+    "name": "OpenMageModuleFostering\/Netgo_Favouritelist",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "This extension helps customers to add the favourite product in their account dashboard.",
     "authors": [
-    {
-        "name": "NetGo",
-        "email": "netattingomails@gmail.com"
-    }
-],
+        {
+            "name": "NetGo",
+            "email": "netattingomails@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
